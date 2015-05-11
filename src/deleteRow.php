@@ -17,7 +17,7 @@ if ($mysqli->connect_errno) {
 
 <!DOCTYPE html>
 <html>
-  <head><title>Check Video In/Out</title></head>
+  <head><title>Delete Video</title></head>
   <body>
     <?php
 

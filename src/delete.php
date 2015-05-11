@@ -15,7 +15,7 @@ if ($mysqli->connect_errno) {
 
 <!DOCTYPE html>
 <html>
-  <head><title>Add Video</title></head>
+  <head><title>Delete All Videos</title></head>
   <body>
   	<?php
   		if (!$mysqli->query("TRUNCATE TABLE $table")) {
