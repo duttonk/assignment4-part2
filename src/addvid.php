@@ -22,7 +22,7 @@ if ($mysqli->connect_errno) {
   	<?php
 
   	//Error checking - look for non-numeric entry, negative numbers - force to return to main
-	if((!is_numeric($_REQUEST['length']) || $_REQUEST['length'] < 0 )) {
+	if((!is_numeric($_REQUEST['length']) || $_REQUEST['length'] < 0 ) && !empty($_REQUEST['length'])) {
 		echo "ERROR - Length must be a positive number. ";
 		echo '<form action="videos.php"><button name="Return" type="submit" autofocus>Return to main page</button></form>';
 
