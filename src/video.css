@@ -1,0 +1,12 @@
+#addVideo {
+	background-color: #E0F5FF;
+	padding-bottom: 8px;
+	padding-left: 5px;
+	margin: 5px;
+}
+
+table, th, td {
+	border: 1px solid black;
+	text-align: left;
+}
+
